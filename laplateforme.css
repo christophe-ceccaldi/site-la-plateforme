@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+body{
+    background-color: #ef0f0f;
+    font-family: 'Roboto', sans-serif;
+}
+/*couleur de fond et police sur body*/
+
+.topband {
+    display: flex
+}
+
+header{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    height: 100px;
+    width: 100%;
+    background-color: chartreuse;
+}
+/*police, couleur et taille pour entête*/
+
+.imageentete img{
+    margin-left: 20px;
+    background-color: blueviolet;
+    width: 70%;
+    
+}
+/*redimensionner image entête*/
+
+
+nav{
+    background-color: yellow;
+    width: 70%;
+}
+/* dimension de la liste*/
+
+.listetop{
+    margin-left: 30px; 
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    list-style: none;
+}
+/*flex + enlever les point de la liste*/
+
+.bigmama {
+    display: flex;
+    align-items: flex-start;   
+}  
+/* affichage du parent*/
+
+
+.mamach01 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    background-color:#336699;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 750px;
+    width: 750px;
+}
+
+.mamach01 p{
+    width : 50%
+}
+.mamach02{
+    display: flex;
+    width: 750px;
+    height: 100%;
+}
+
+.scdstep{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    background: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+.scdstepch01 p{
+    text-align: center;
+}
+
+.scdstepch02{
+    display: flex;
+    justify-content: space-around;
+    background-color: fuchsia;
+    height: 1000px;
+    width: 100%;
+ 
+}
+.scdstepch02 div {
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+}
+
+.titrecentre{
+    text-align: center;
+}
+
+.scdstepch03{
+    display: flex;
+    display: contents;
+    height: 1000px;
+    width: 100%;
+    background-color: lime;
+}
+
+
+.scdstepch03 p{
+    padding: 20px;
+    text-align: left;
+    width: 70%;
+}
+
+.thrstep{
+    display: flex;
+    height: 1000px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffa000;
+
+}
+.titrecentre{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+
+.ctrlvidpl{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.thrstep section{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+
+
